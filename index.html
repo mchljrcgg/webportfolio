@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 1</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lugrasimo&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+<body>
+      <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">mchljrcgg</a>
+                  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#landing">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#tools">Tools</a>
+                        </li> 
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+      <!-- Navbar End -->
+      <!--Home Landing Page Start -->
+            <div class="container-fluid py-5" id="landing">
+                <div class="row d-flex justify-content-center align-items-center py-5 my-5">
+                    <div class="col-lg-6 col-md-8 col-12 text-center">
+                        <h2> Hi, I am <p class="mics">Mics</p>!</h2>
+                        <p class="py-3"> I love to travel, collect Popmart figs, play Valorant, Pokemon TCGO and Warcraft Rumble.</p>
+
+                        <a href="#about-me" class="btn btn-dark my-5">Learn More</a>
+
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-12 text-center">
+                        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators p-4">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="carou-pic mx-auto" src="./images/travel.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <h5 class="carou-info pt-5">Travel</h5>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="carou-pic" src="./images/pop.jpg" class="d-block w-25">
+                                <div class="carousel-caption d-none d-md-block">   
+                                </div>
+                                <h5 class="carou-info pt-5">Popmart figs</h5>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="carou-pic" src="./images/valorant.png">
+                                <div class="carousel-caption d-none d-md-block">
+                                  
+                                </div>
+                                <h5 class="carou-info pt-5">Valorant</h5>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="carou-pic" src="./images/ptcgo.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                <h5 class="carou-info pt-5">Pokemon TCGO</h5>
+                              </div>
+                              <div class="carousel-item">
+                                <img class="carou-pic" src="./images/warcraftrumble.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                                  <h5 class="carou-info pt-5">Warcraft Rumble</h5>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>    
+                </div>
+            </div>
+      <!-- Home Landing Page End -->
+      <!-- About me page Start -->
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" class="container py-5" id="about-me">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 col-md-9 col-10">
+                            <img id="profilepic" src="./images/gradpic.jpg">
+                        </div>
+                      
+                        <div class="col-lg-6 col-md-8 col-10 pt-sm-3 pt-xl-5">
+                            <h2 class="text-center py-3">Michael Jeric S. Gan</h2>
+                            <h5 class="fswd text-center">Full Stack Web Developer</h5>
+                                <p class="text-center pt-3 mt-3">I graduated from De La Salle University with a course of International Studies major in Chinese Studies</p>
+                                <p class="text-center mt-3 pt-3">I am currently studying at Zuitt Coding Bootcamp in the hopes of become a proficient full stack web developer.</p>
+                                <p class="text-center mt-3 pt-3">I also have an online business, Ticket Ninja. It is an online ticketing assistance provider wherein we help fans secure concert tickets with ease.</p>
+                        </div>
+                    </div>
+          </div>
+      <!-- About me page End -->
+      <!-- Projects page Start -->
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" class="container-fluid py-5 my-5" id="projects">
+                    <h1 class="text-center pb-3">My Future Projects</h1>
+                    <div class="row d-flex justify-content-center my-5">
+                        <div class="col-lg-4 col-md-8 col-sm-12">
+                            <img class="card-pic py-sm-5" src="https://cdn-icons-png.flaticon.com/512/2654/2654594.png">
+                            <div class="card-body">
+                            <h5 class="card-title text-center">Boy Gonzales Store</h5>
+                            <p class="card-text text-center">I want to optimize our Family Business' flow from the ordering to the delivery using Web Developer Program knowledge.</p>
+                            <a href="https://www.google.com/" target="_blank" class="btn btn-dark d-flex justify-content-center">Learn More</a>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-8 col-sm-12">
+                            <img class="card-pic py-sm-5" src="https://cdn.discordapp.com/attachments/1091405584399618169/1101787873642020986/ninja.png?ex=6643216b&is=6641cfeb&hm=ddb17c5f86315ea7dbaf674da92a63afc418a5b22334ec0eecbb8781c3e42164&">
+                            <div class="card-body">
+                            <h5 class="card-title text-center">Ticket Ninja</h5>
+                            <p class="card-text text-center">I want to create a backend for Ticket Ninja that can store information automatically from our discord to an excel sheet.</p>
+                            <a href="https://www.google.com/" target="_blank" class="btn btn-dark d-flex justify-content-center">Learn More</a>
+                        </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-8 col-sm-12">
+                            <img class="card-pic py-xl-5 py-sm-5" src="./images/webdev.png">
+                            <div class="card-body">
+                            <h5 class="card-title text-center pb-xl-2">Web Developer</h5>
+                            <p class="card-text text-center pb-xl-2">I want to be a proficient Web Developer.</p>
+                            <a href="https://www.google.com/" target="_blank" class="btn btn-dark d-flex justify-content-center">Learn More</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+      <!-- Projects page Start -->
+      <!-- Tools Start -->
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-duration="500"class="container pt-5 mt-5" id="tools">
+            <h1 class="text-center pb-3">Tools:</h1>
+            <div class="row py-5 d-flex flex-sm-row flex-md-row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-center mt-3">Front End</h5>
+                    <div class="tools-logo d-flex justify-content-center flex-wrap">
+                        <img src="./images/logo-html5.png">
+                        <img src="./images/logo-css3.png">
+                        <img src="./images/logo-bootstrap.png">
+                        <img src="./images/logo-javascript.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-center mt-3">MERN</h5>
+                    <div class="tools-logo d-flex justify-content-center flex-wrap">
+                        <img src="./images/logo-mongodb.png">
+                        <img src="./images/logo-expressjs.png">
+                        <img src="./images/logo-react.png">
+                        <img src="./images/logo-nodejs.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h5 class="text-center mt-3">Other Tools</h5>
+                    <div class="tools-logo d-flex justify-content-center flex-wrap">
+                        <img src="./images/logo-heroku.png"/>
+                        <img src="images/logo-git.png"/>
+                        <img src="images/logo-sublime-text-3.png"/>
+                        <img src="images/logo-postman.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Tools End -->
+     <!-- Contact Me page Start -->
+        <form data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" class="container-fluid text-center" id="contact">
+            <div class="row d-flex justify-content-center px-5 py-5 my-5">
+              <h1 class="pb-3">Contact Us</h1>
+                <div>
+                    <!-- SOCIALS START -->
+                          <div id="socials-logo">   
+                            <!-- FACEBOOK -->
+                                <a href="https://www.facebook.com/profile.php?id=100012174969855" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"></a>
+                            <!-- LinkedIN -->
+                                <a href="https://www.linkedin.com/in/michael-jeric-gan-84822314a/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"></a>
+                            <!-- Gitlab -->
+                                <a href="https://gitlab.com/users/sign_in" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/144_Gitlab_logo_logos-512.png"></a>
+                            <!-- Github -->
+                                <a href="https://github.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png "></a>
+                            </div>
+                    <!-- SOCIALS END -->
+                </div>
+                    <div class="col-xxl-5 col-xl-4 col-lg-8 col-md-8 col-sm-0 pt-5">
+                      <iframe class="google-map d-none d-xxl-block"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247316.72063964998!2d120.86753217451788!3d14.408490686497858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1715677195101!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="col-xxl-5 col-xl-9 col-lg-8 col-md-8 col-10 pt-5"> 
+                        <div>
+                          
+                        <label for="name" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="name">
+                    </div>
+
+                    <div>
+                    <label for="email_address" class="form-label mt-3">Email</label>
+                    <input type="password" class="form-control" id="email_address">
+                    <div id="emailHelp" class="form-text text-dark">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div>
+                    <label for="contact_number" class="form-label mt-3">Contact Number</label>
+                    <input type="tel" class="form-control" id="contact_number">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Send</button>
+               </div>
+            </div>
+        </form>
+      <!-- Contact Me page End -->
+
+      <!-- Modal Start -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-dark">
+                        Message Successfully Sent
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+      <!-- Modal End -->
+      <!-- Footer Start -->
+            <footer class="footer bg-dark text-white text-center py-5">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p>&copy; 2024 mchljrcgg. All rights reserved.</p>
+                      </div>
+                  </div>
+              </div>    
+            </footer>
+    <!-- Footer Start -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+* {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+body {
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-light-gray-background-texture-image_995291.jpg)
+}
+
+#profilepic  {
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.carou-pic {
+    height: 500px;
+    overflow: hidden; 
+}
+
+#welcome {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-size: 10px;
+}
+
+.tools-logo, #contactme, . img {
+    max-width: 100%;
+    margin: 10px; 
+}
+
+#socials-logo {
+    display: inline-block;
+    text-align: center;
+}
+
+#socials-logo img {
+    width: 30px;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.carou-pic {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mics {
+    display: inline;
+    text-decoration: underline;
+}
+
+#projects {
+    border: 15px solid rgb(7, 7, 39);
+    border-radius: 150px;
+}
+
+#tools {
+    padding: px;
+    border: 15px solid rgb(7, 7, 39);
+    border-radius: 150px;
+}
+
+.card-pic {
+    height: 500px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fswd {
+    font-style: italic;
+}
+
+h1, h3, h4 {
+    text-decoration: underline;
+  }
+
+.google-map {
+    width: 600px;
+    height: 450px;
+}
